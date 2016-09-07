@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-var limit = +prompt("Enter a number between 5 and 100")
-parseInt(limit)
+var limit = parseInt(0 + prompt("Enter a number between 5 and 100"));
+
 
 function fizzbuzz() {
 	for (var i = 1; i <= limit; i++) {
